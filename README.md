@@ -1,39 +1,57 @@
-# DeFiHub Token
+# DeFiHub Token - DUTIL
 
 ![DUTIL Logo](dutil.svg)
 
-**DUTIL** is the official utility token of [DeFiHub](https://defihub.space) — a Web3 content and insights platform focused on decentralized finance.
+**DUTIL** is the official ERC-20 utility token of the DeFiHub platform.
 
-## About DUTIL
+## Token Details
 
-DUTIL powers the DeFiHub ecosystem by enabling token-gated access to premium content, exclusive articles, analytics, and tools on [app.defihub.space](https://app.defihub.space).
+| Property              | Value |
+|-----------------------|-------|
+| **Token Name**        | Decentralized Utility Token IOU |
+| **Symbol**            | DUTIL |
+| **Blockchain**        | Base |
+| **Token Standard**    | ERC-20 |
+| **Contract Address**  | `0x15d623fd18358a194e1835f20840dcc83281d938` |
+| **Total Supply**      | 10,000,000 DUTIL |
+| **Decimals**          | 18 |
+| **Status**            | Verified on Basescan |
 
-### Token Information
-
-- **Token Name**: Decentralized Utility Token IOU (DUTIL)
-- **Blockchain**: Base
-- **Contract Address**: `0x15d623fd18358a194e1835f20840dcc83281d938`
-- **Total Supply**: 10,000,000 DUTIL
-- **Token Standard**: ERC-20
+### Contract Features
+- Minted supply locked at deployment
+- Ownable (ownership can be renounced)
+- Burnable
+- Standard ERC-20 functionality (transfer, approve, transferFrom)
 
 ## Links
 
-- **Website**: [https://defihub.space](https://defihub.space)
-- **Token Dashboard**: [https://app.defihub.space/token](https://app.defihub.space/token)
-- **Explorer**: [Basescan](https://basescan.org/address/0x15d623fd18358a194e1835f20840dcc83281d938)
+- **Official Website**: [defihub.space](https://defihub.space)
+- **Token Dashboard**: [app.defihub.space/token](https://app.defihub.space/token)
+- **Basescan (Verified)**: [View Contract](https://basescan.org/address/0x15d623fd18358a194e1835f20840dcc83281d938)
+- **GitHub**: [defihubspace](https://github.com/defihubspace)
 
-## How to Use DUTIL
+## Technical Information
 
-Holding DUTIL tokens grants access to premium/gated sections of the DeFiHub platform.
+**Source Code**: Fully verified on Basescan using Solidity `0.8.20` + OpenZeppelin v5.
 
-## Repository Contents
+**Main Functions**:
+- `transfer()` / `transferFrom()`
+- `burn()` / `burnFrom()`
+- `approve()`
+- Standard `balanceOf()`, `totalSupply()`, `allowance()`
 
-- `dutil.svg` — Official token logo (32x32)
+**Utility**:
+Holding DUTIL tokens grants access to premium/gated content, analytics, and exclusive tools on the DeFiHub platform (`app.defihub.space`).
 
-## License
+## How to Add DUTIL to Your Wallet
 
-This repository contains only branding assets. All rights reserved.
+**Network**: Base  
+**Contract Address**: `0x15d623fd18358a194e1835f20840dcc83281d938`
+
+## Repository
+
+This repository contains official branding assets (logo) and documentation for the DUTIL token.
 
 ---
 
-Made with ❤️ for the DeFiHub community.
+Made with ❤️ for the DeFiHub ecosystem.
